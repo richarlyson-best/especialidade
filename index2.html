@@ -1,0 +1,78 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Tabela Simples</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="container mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <h1 class="text-4xl font-bold text-blue-600 mb-4">Tabela Simples</h1>
+        <p class="text-lg text-gray-700 mb-4">
+            Esta é uma tabela simples com texto colorido, um gráfico, uma regra horizontal e um link.
+        </p>
+        <table class="min-w-full bg-white border border-gray-200">
+            <thead>
+                <tr>
+                    <th class="py-2 px-4 border-b border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600">Nome</th>
+                    <th class="py-2 px-4 border-b border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600">Idade</th>
+                    <th class="py-2 px-4 border-b border-gray-200 bg-gray-100 text-left text-sm font-semibold text-gray-600">Sexo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">Ronaldinho</td>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">90</td>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">M</td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">Pelé</td>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">84</td>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">M</td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">André Fernandes</td>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">27</td>
+                    <td class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">M</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="py-2 px-4 border-b border-gray-200 text-sm text-gray-700">
+                      <span class="text-4xl font-bold text-blue-600 mb-4">Idades</span>
+                        <div class="flex justify-center items-end h-64">
+                            <div class="flex flex-col items-center mx-2">
+                                <div class="bg-blue-500 w-10 h-32"></div>
+                                <span class="mt-2 text-sm text-gray-700">90</span>
+                            </div>
+                            <div class="flex flex-col items-center mx-2">
+                                <div class="bg-green-500 w-10 h-24"></div>
+                                <span class="mt-2 text-sm text-gray-700">84</span>
+                            </div>
+                            <div class="flex flex-col items-center mx-2">
+                                <div class="bg-yellow-500 w-10 h-16"></div>
+                                <span class="mt-2 text-sm text-gray-700">27</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-center mt-4">
+                            <span class="mx-2 text-sm text-gray-700">Ronaldinho</span>
+                            <span class="mx-2 text-sm text-gray-700">Pelé</span>
+                            <span class="mx-2 text-sm text-gray-700">André Fernandes</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="py-2 px-4 text-center text-sm text-gray-700">
+                        <a class="text-blue-500 hover:text-blue-700 text-lg" href="https://www.richarlyson-best/index.html">Clique aqui para mais informações</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
